@@ -30,3 +30,20 @@ $(hourBlock).each(function(i, hour) {
     }
 });
 
+var loadTasks = function() {
+    var tasks = JSON.parse(localStorage.getItem("tasks"));
+
+    if (!tasks) {
+        tasks = {
+
+        }
+    }
+}
+
+$(".col-8").on("click", "textarea", function() {
+    $(this).addClass("form-control");
+});
+
+$(".col-8").on("blur", "textarea", function() {
+    $(this).removeClass("form-control");
+})
