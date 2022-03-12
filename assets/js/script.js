@@ -10,7 +10,7 @@ var saveTasks = function() {
 }
 
 $(".saveBtn").on("click", function() {
-
+    
 })
 
 
@@ -29,3 +29,4 @@ $(hourBlock).each(function(i, hour) {
         $(this).next().addClass("past")
     }
 });
+
