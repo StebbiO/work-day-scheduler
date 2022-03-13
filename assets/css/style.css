@@ -73,3 +73,7 @@ textarea{
 .text-box-start {
   color: rbga(0,0,0,0);
 }
+
+span{
+  font-size: 35px;
+}
