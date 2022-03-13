@@ -10,6 +10,9 @@ var saveTasks = function() {
 }
 
 $(".saveBtn").on("click", function() {
+    var userText = $(this).siblings(".col-8").children("textarea").val();
+    var timeBlock = $(this).siblings(".col-2").attr("id");
+    console.log(userText, timeBlock);
     
 })
 
